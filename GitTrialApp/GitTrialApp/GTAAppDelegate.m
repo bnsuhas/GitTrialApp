@@ -22,6 +22,8 @@
     NSLog(@"Second commit by some other user");
     
     NSLog(@"Third commit by some other user");
+
+    NSLog(@"Always commit before pull");
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.Exilant.GitTrialApp" in the user's Application Support directory.
