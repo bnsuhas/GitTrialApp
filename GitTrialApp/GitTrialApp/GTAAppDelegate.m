@@ -18,6 +18,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    NSLog(@"Second commit by some other user");
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.Exilant.GitTrialApp" in the user's Application Support directory.

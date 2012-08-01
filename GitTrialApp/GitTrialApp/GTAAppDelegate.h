@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+//Second commit by some other user.
 
 @interface GTAAppDelegate : NSObject <NSApplicationDelegate>
 
