@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC6A14515C93B1300886A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC6A14415C93B1300886A41 /* Cocoa.framework */; };
+		ADC6A14F15C93B1300886A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC6A14D15C93B1300886A41 /* InfoPlist.strings */; };
+		ADC6A15115C93B1300886A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC6A15015C93B1300886A41 /* main.m */; };
+		ADC6A15515C93B1300886A41 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ADC6A15315C93B1300886A41 /* Credits.rtf */; };
+		ADC6A15815C93B1300886A41 /* GTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC6A15715C93B1300886A41 /* GTAAppDelegate.m */; };
+		ADC6A15B15C93B1400886A41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC6A15915C93B1400886A41 /* MainMenu.xib */; };
+		ADC6A15E15C93B1400886A41 /* GitTrialApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADC6A15C15C93B1400886A41 /* GitTrialApp.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADC6A14015C93B1300886A41 /* GitTrialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTrialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC6A14415C93B1300886A41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ADC6A14715C93B1300886A41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ADC6A14815C93B1300886A41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADC6A14915C93B1300886A41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADC6A14C15C93B1300886A41 /* GitTrialApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTrialApp-Info.plist"; sourceTree = "<group>"; };
+		ADC6A14E15C93B1300886A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADC6A15015C93B1300886A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC6A15215C93B1300886A41 /* GitTrialApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitTrialApp-Prefix.pch"; sourceTree = "<group>"; };
+		ADC6A15415C93B1300886A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ADC6A15615C93B1300886A41 /* GTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAAppDelegate.h; sourceTree = "<group>"; };
+		ADC6A15715C93B1300886A41 /* GTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAAppDelegate.m; sourceTree = "<group>"; };
+		ADC6A15A15C93B1400886A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADC6A15D15C93B1400886A41 /* GitTrialApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitTrialApp.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC6A13D15C93B1300886A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC6A14515C93B1300886A41 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC6A13515C93B1300886A41 = {
+			isa = PBXGroup;
+			children = (
+				ADC6A14A15C93B1300886A41 /* GitTrialApp */,
+				ADC6A14315C93B1300886A41 /* Frameworks */,
+				ADC6A14115C93B1300886A41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC6A14115C93B1300886A41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6A14015C93B1300886A41 /* GitTrialApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC6A14315C93B1300886A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6A14415C93B1300886A41 /* Cocoa.framework */,
+				ADC6A14615C93B1300886A41 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC6A14615C93B1300886A41 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6A14715C93B1300886A41 /* AppKit.framework */,
+				ADC6A14815C93B1300886A41 /* CoreData.framework */,
+				ADC6A14915C93B1300886A41 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ADC6A14A15C93B1300886A41 /* GitTrialApp */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6A15615C93B1300886A41 /* GTAAppDelegate.h */,
+				ADC6A15715C93B1300886A41 /* GTAAppDelegate.m */,
+				ADC6A15915C93B1400886A41 /* MainMenu.xib */,
+				ADC6A15C15C93B1400886A41 /* GitTrialApp.xcdatamodeld */,
+				ADC6A14B15C93B1300886A41 /* Supporting Files */,
+			);
+			path = GitTrialApp;
+			sourceTree = "<group>";
+		};
+		ADC6A14B15C93B1300886A41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6A14C15C93B1300886A41 /* GitTrialApp-Info.plist */,
+				ADC6A14D15C93B1300886A41 /* InfoPlist.strings */,
+				ADC6A15015C93B1300886A41 /* main.m */,
+				ADC6A15215C93B1300886A41 /* GitTrialApp-Prefix.pch */,
+				ADC6A15315C93B1300886A41 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC6A13F15C93B1300886A41 /* GitTrialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC6A16115C93B1400886A41 /* Build configuration list for PBXNativeTarget "GitTrialApp" */;
+			buildPhases = (
+				ADC6A13C15C93B1300886A41 /* Sources */,
+				ADC6A13D15C93B1300886A41 /* Frameworks */,
+				ADC6A13E15C93B1300886A41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitTrialApp;
+			productName = GitTrialApp;
+			productReference = ADC6A14015C93B1300886A41 /* GitTrialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC6A13715C93B1300886A41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GTA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ADC6A13A15C93B1300886A41 /* Build configuration list for PBXProject "GitTrialApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC6A13515C93B1300886A41;
+			productRefGroup = ADC6A14115C93B1300886A41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC6A13F15C93B1300886A41 /* GitTrialApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC6A13E15C93B1300886A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC6A14F15C93B1300886A41 /* InfoPlist.strings in Resources */,
+				ADC6A15515C93B1300886A41 /* Credits.rtf in Resources */,
+				ADC6A15B15C93B1400886A41 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC6A13C15C93B1300886A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC6A15115C93B1300886A41 /* main.m in Sources */,
+				ADC6A15815C93B1300886A41 /* GTAAppDelegate.m in Sources */,
+				ADC6A15E15C93B1400886A41 /* GitTrialApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC6A14D15C93B1300886A41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC6A14E15C93B1300886A41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADC6A15315C93B1300886A41 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC6A15415C93B1300886A41 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ADC6A15915C93B1400886A41 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC6A15A15C93B1400886A41 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC6A15F15C93B1400886A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADC6A16015C93B1400886A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADC6A16215C93B1400886A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitTrialApp/GitTrialApp-Prefix.pch";
+				INFOPLIST_FILE = "GitTrialApp/GitTrialApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADC6A16315C93B1400886A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitTrialApp/GitTrialApp-Prefix.pch";
+				INFOPLIST_FILE = "GitTrialApp/GitTrialApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC6A13A15C93B1300886A41 /* Build configuration list for PBXProject "GitTrialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC6A15F15C93B1400886A41 /* Debug */,
+				ADC6A16015C93B1400886A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC6A16115C93B1400886A41 /* Build configuration list for PBXNativeTarget "GitTrialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC6A16215C93B1400886A41 /* Debug */,
+				ADC6A16315C93B1400886A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADC6A15C15C93B1400886A41 /* GitTrialApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADC6A15D15C93B1400886A41 /* GitTrialApp.xcdatamodel */,
+			);
+			currentVersion = ADC6A15D15C93B1400886A41 /* GitTrialApp.xcdatamodel */;
+			path = GitTrialApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADC6A13715C93B1300886A41 /* Project object */;
+}

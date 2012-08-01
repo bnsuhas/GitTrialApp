@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GitTrialApp' target in the 'GitTrialApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
