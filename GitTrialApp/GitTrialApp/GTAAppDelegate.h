@@ -20,5 +20,4 @@
 
 - (IBAction)saveAction:(id)sender;
 
-//Simply committ
 @end
